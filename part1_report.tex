@@ -1,0 +1,61 @@
+\documentclass[11pt,a4paper]{article}
+
+% Page Geometry
+\usepackage[margin=2cm]{geometry}
+% For block paragraphs (blank line between paragraphs, no indent):
+\usepackage[parfill]{parskip}
+\usepackage[
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+]{hyperref}
+
+
+\title{Group Name - Number}
+\author{Gandalf, Aragorn, Boromir, Legolas \\ \url{https://github.com/gandalf/repo}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\textit{Please keep the questions in the template and answer them below. You can delete instructions in italics including this one.}
+
+\textit{If you are including a plot, save it as a PDF and include like a regular figure. This makes it vector based so it does not get pixelated when zooming in.}
+
+\section{Part 1}
+
+\subsection{(2 marks) What does your data look like?}\label{p1_report_data_distribution}
+
+\textit{For example, how many samples do you have for each category? What is the number of strokes per doodle? It does not have be to be these questions either. Present a table or plot to show insights of the categories you selected. You don't have to be exhaustive, we just want you to engage with the data, the most important thing in ML. 3-5 sentences is usually enough to highlight the key points that are important or interesting to you.}
+
+\subsection{(3 marks) Which models overfit? How did you tune them?}\label{p1_report_overfit_tuning}
+
+\textit{Compare the performance of the models on the different splits. Did you try to tune the models? For each model, this is the place to explain what you did and why. Your code must include the tuning process when run, your kind words are not enough. Be concise, but also explain your reasoning. 2-3 sentences per model is enough.}
+
+\subsection{(4 marks) So, which is the best model?}\label{p1_report_best_model}
+
+\textit{Prepare a table or plot to compare the performance of the models if you don't have one already, you can use a figure or table from the previous question if you like. Which is the best model? Why? Explain your reasoning. In other words, if your boss asks you to deploy a model, which one would you choose and why? 3-5 sentences}
+
+\subsection{(2 mark) Which category is the most difficult one to classify?}\label{p1_report_hardest_category}
+
+\textit{Also, how did you come to this conclusion? Why do you think this category is the most difficult one to classify? Explain your reasoning. 3-5 sentences.}
+
+\subsection{(2 marks) What happens when you increase the number of max strokes?}\label{p1_report_max_strokes}
+
+\textit{You can change the maximum number of strokes with MAX\_STROKES in preprocessing and run through again. What happens to the performance of the models when you increase this number? Why do you think this is the case? Explain your reasoning. 3-5 sentences.}
+
+\subsection{(1 mark) Can you draw the most difficult category to classify?}\label{p1_report_draw_hardest}
+
+\textit{For the most difficult category you identified, try to draw something that the model(s) score high. That is, it predicts the most difficult category for your drawing as high as possible. Explain what the model is 'looking' for in the drawing. 3-5 sentences.}
+
+\textit{Use the provided studio script to draw your doodle. You can then save the drawing as a PDF and include it in your report so we can all see it!}
+
+\textit{Okay, don't panic, you don't have to be an artist. Think about what the model is trying to do, and how it might interpret the drawing even it struggles to predict in the test set.}
+
+\section*{Declaration of GenAI Use}
+
+Which AI(s), how did you use?
+
+\end{document}

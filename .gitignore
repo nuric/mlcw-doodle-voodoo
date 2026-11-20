@@ -1,0 +1,15 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# Dataset & generated outputs
+out/
+ta_out/
+data/
+part1_outputs/
+part2_outputs/
+mlcw-doodle-voodoo/

@@ -1,0 +1,57 @@
+\documentclass[11pt,a4paper]{article}
+
+% Page Geometry
+\usepackage[margin=2cm]{geometry}
+% For block paragraphs (blank line between paragraphs, no indent):
+\usepackage[parfill]{parskip}
+\usepackage[
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+]{hyperref}
+
+
+\title{Group Name - Number}
+\author{Gandalf, Aragorn, Boromir, Legolas \\ \url{https://github.com/gandalf/repo}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\textit{Please keep the questions in the template and answer them below. You can delete instructions in italics including this one.}
+
+\textit{If you are including a plot, save it as a PDF and include like a regular figure. This makes it vector based so it does not get pixelated when zooming in.}
+
+\section{Part 2}
+
+\subsection{(2 marks) Why does preprocessing resample strokes?}\label{p2_report_resample_strokes}
+
+\textit{We have given you a preprocessing script which resamples every stroke. Discuss with your group, TAs, and AI to understand what is going on. Then, explain why is it necessary for what we are trying to do. Look at the preprocessing steps plot that is generated for help. 3-5 sentences}
+
+\subsection{(1 mark) Why does K-Means return medoids instead of centroids?}\label{p2_report_medoids_vs_centroids}
+
+\textit{Instead of returning the centroid, we approximate the medoid in the code using the centroid. Consider what the difference is between a medoid and a centroid in terms of strokes. Explain your reasoning on what they mean in this context and why medoid is returned. 2-3 sentences}
+
+\subsection{(1 marks) How did you choose the number of clusters? }\label{p2_report_kmeans_tuning}
+
+\textit{Explain the process you used to determine the number of clusters for the K-Means algorithm. You can present a plot to show the process. What criteria did you use to make this decision? 2-3 sentences}
+
+\subsection{(3 marks) How does the number of clusters affect the RNN and the drawing quality?}\label{p2_report_num_clusters_effect}
+
+\textit{There is a tradeoff here can you spot it? Think of the extreme cases where there are only few clusters versus infinitely many. 3-5 sentences}
+
+\subsection{(2 marks) What does the model hallucinate when you start with a circle?}\label{p2_report_circle_hallucination}
+
+\textit{Using the genai script, draw a circle and start hitting tab to see what the model generates. Save the generated drawing as a PDF and include it in your report. Then, explain what the model is hallucinating and why you think it is doing that. 3-5 sentences}
+
+\subsection{(1 mark) Can you spot the link to LLMs?}\label{p2_report_llm_link}
+
+\textit{Very briefly comment on how what we are doing here is related to LLMs. 1-2 sentences}
+
+\section*{Declaration of GenAI Use}
+
+Which AI(s), how did you use?
+
+\end{document}

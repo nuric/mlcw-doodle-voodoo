@@ -1,0 +1,11 @@
+# Scientific computing & Core data
+numpy
+scikit-learn
+pillow
+
+# Plotting & EDA
+matplotlib
+# PyQt6 for GUI if not already available
+
+# Deep Learning (Standard Stack)
+torch
