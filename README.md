@@ -1,4 +1,6 @@
-# Doodle Voodoo - Quick, Draw! Machine Learning Coursework
+# Doodle Voodoo - ML Coursework
+
+![RNN Autoregressive Stroke Completion](cover.gif)
 
 Skeleton repository for the **Machine Learning** coursework on sketch classification and generative sketch modelling using Google's [Quick, Draw!](https://quickdraw.withgoogle.com/data) dataset.
 
