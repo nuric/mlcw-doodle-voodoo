@@ -23,7 +23,9 @@ import matplotlib.pyplot as plt
 # =============================================================================
 # Pick a subset of categories (this time around 5).
 # These categories are the names of the files in the `data/` directory (e.g., `data/face.bin`).
+# ### BEGIN SOLUTION ###
 pass
+# ### END SOLUTION ###
 
 MAX_DRAWINGS_PER_CATEGORY = 8000
 MIN_STROKES = 2

@@ -20,7 +20,9 @@ from part1_common import (
 # Global Configuration (Edit these to experiment!)
 # =============================================================================
 # Pick a subset of categories, initially 10 categories. These categories are the names of the files in the `data/` directory (e.g., `data/apple.bin`).
+# ### BEGIN SOLUTION ###
 pass
+# ### END SOLUTION ###
 
 # Maximum number of strokes to render per drawing (None = render all strokes).
 MAX_STROKES = 5
@@ -130,7 +132,9 @@ def main():
 
     X_train, X_val, X_test = None, None, None
     # Use the already imported train_test_split to create train/val/test splits with VAL_RATIO and TEST_RATIO.
+    # ### BEGIN SOLUTION ###
     pass
+    # ### END SOLUTION ###
 
     # Save splits and metadata
     np.savez_compressed(PART1_OUTPUT_DIR / "train.npz", X=X_train, y=y_train)

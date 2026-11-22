@@ -23,7 +23,9 @@ from part1_common import (
 # We give these to speed up common ones to get the training plumbing working.
 BATCH_SIZE = 128
 # Add your hyperparameters here as usual
+# ### BEGIN SOLUTION ###
 pass
+# ### END SOLUTION ###
 
 
 # =============================================================================
@@ -33,7 +35,9 @@ class SketchCNN(nn.Module):
     """2D CNN for 28x28 grayscale sketch classification."""
 
     # Define your model def __init__ here. This time also define the forward method to implement the forward pass of the CNN.
+    # ### BEGIN SOLUTION ###
     pass
+    # ### END SOLUTION ###
 
 
 
@@ -54,7 +58,9 @@ def main():
 
     cnn_model = None
     # Use the already defined SketchCNN class to train the cnn_model. We have also imported train_pytorch_classifier to train the model and plot_training_history to visualise the training process.
+    # ### BEGIN SOLUTION ###
     pass
+    # ### END SOLUTION ###
 
     # Save the model
     checkpoint_path = PART1_OUTPUT_DIR / "cnn_model.pt"

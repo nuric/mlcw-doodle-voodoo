@@ -19,7 +19,9 @@ from part1_common import (
 # =============================================================================
 # Hyperparameters
 # =============================================================================
+# ### BEGIN SOLUTION ###
 pass
+# ### END SOLUTION ###
 
 
 # =============================================================================
@@ -67,7 +69,9 @@ def main():
 
     logreg_model = None
     # Use the already imported LogisticRegression to train logreg_model. We have also imported accuracy_score to help.
+    # ### BEGIN SOLUTION ###
     pass
+    # ### END SOLUTION ###
 
     # Save the model
     checkpoint_path = PART1_OUTPUT_DIR / "logreg_model.pkl"

@@ -22,7 +22,9 @@ from part1_common import (
 # We give these to speed up common ones to get the training plumbing working.
 BATCH_SIZE = 128
 # Add your hyperparameters here as usual
+# ### BEGIN SOLUTION ###
 pass
+# ### END SOLUTION ###
 
 
 # =============================================================================
@@ -32,7 +34,9 @@ class SketchMLP(nn.Module):
     """MLP for flattened 28x28 sketch classification."""
 
     # Define your model def __init__ here.
+    # ### BEGIN SOLUTION ###
     pass
+    # ### END SOLUTION ###
 
     def forward(self, x):
         return self.net(x)
@@ -55,7 +59,9 @@ def main():
 
     mlp_model = None
     # Use the already defined SketchMLP class to train the mlp_model. We have also imported train_pytorch_classifier to train the model and plot_training_history to visualise the training process.
+    # ### BEGIN SOLUTION ###
     pass
+    # ### END SOLUTION ###
 
     # Save the model
     checkpoint_path = PART1_OUTPUT_DIR / "mlp_model.pt"

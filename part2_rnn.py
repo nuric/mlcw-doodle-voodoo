@@ -22,7 +22,9 @@ from part2_common import (
 # We give BATCH_SIZE to get the data loading plumbing working.
 BATCH_SIZE = 128
 # Add your hyperparameters here as usual
+# ### BEGIN SOLUTION ###
 pass
+# ### END SOLUTION ###
 
 
 # =============================================================================
@@ -32,7 +34,9 @@ class NextStrokeRNN(nn.Module):
     """Autoregressive GRU predicting next stroke token ID t+1 from tokens 0..t."""
 
     # Define your model __init__ and forward methods here.
+    # ### BEGIN SOLUTION ###
     pass
+    # ### END SOLUTION ###
 
 
 # =============================================================================
@@ -59,7 +63,9 @@ def main():
     rnn_model = None
     # Use the already defined NextStrokeRNN class to train the rnn_model.
     # We have also imported train_token_predictor and plot_training_history to help.
+    # ### BEGIN SOLUTION ###
     pass
+    # ### END SOLUTION ###
 
     checkpoint_path = PART2_OUTPUT_DIR / "rnn_model.pt"
     torch.save(rnn_model, checkpoint_path)

@@ -27,7 +27,9 @@ KMEANS_BATCH_SIZE = 2048
 KMEANS_MAX_ITER = 3000
 
 # Please experiment as usual by checking your own hyperparameters
+# ### BEGIN SOLUTION ###
 pass
+# ### END SOLUTION ###
 
 
 # =============================================================================
@@ -117,7 +119,9 @@ def main():
 
     centroids = None
     # Use `fit_stroke_kmeans` to perform k-means clustering and assign `centroids`.
+    # ### BEGIN SOLUTION ###
     pass
+    # ### END SOLUTION ###
 
     num_clusters = len(centroids)
     np.save(PART2_OUTPUT_DIR / "centroids.npy", centroids)

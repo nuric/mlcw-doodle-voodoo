@@ -17,7 +17,9 @@ from part1_common import (
 # =============================================================================
 # Hyperparameters
 # =============================================================================
+# ### BEGIN SOLUTION ###
 pass
+# ### END SOLUTION ###
 
 
 # =============================================================================
@@ -33,7 +35,9 @@ def main():
 
     knn_model = None
     # Use the already imported KNeighborsClassifier to train the knn_model. We have also imported accuracy_score to help.
+    # ### BEGIN SOLUTION ###
     pass
+    # ### END SOLUTION ###
 
     # Save the model
     checkpoint_path = PART1_OUTPUT_DIR / "knn_model.pkl"
