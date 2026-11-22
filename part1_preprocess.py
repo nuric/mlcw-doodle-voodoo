@@ -19,7 +19,10 @@ from part1_common import (
 # =============================================================================
 # Global Configuration (Edit these to experiment!)
 # =============================================================================
-# Pick a subset of categories, initially 10 categories. These categories are the names of the files in the `data/` directory (e.g., `data/apple.bin`).
+# Pick a subset of categories, initially 10 categories. These categories are the
+# names of the files in the `data/` directory (e.g., `data/apple.bin`) assign to
+# CATEGORIES variable like CATEGORIES = ["apple", ...] below.
+# There is nothing else to do in the block below.
 # ### BEGIN SOLUTION ###
 pass
 # ### END SOLUTION ###

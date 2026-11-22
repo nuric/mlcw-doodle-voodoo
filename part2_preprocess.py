@@ -22,7 +22,10 @@ import matplotlib.pyplot as plt
 # Global Configuration (Edit these to experiment!)
 # =============================================================================
 # Pick a subset of categories (this time around 5).
-# These categories are the names of the files in the `data/` directory (e.g., `data/face.bin`).
+# These categories are the names of the files in the `data/` directory (e.g.,
+# `data/face.bin`) assign to CATEGORIES variable like CATEGORIES = ["apple",
+# ...] below.
+# There is nothing else to do in the block below.
 # ### BEGIN SOLUTION ###
 pass
 # ### END SOLUTION ###
